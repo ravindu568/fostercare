@@ -1,0 +1,16 @@
+.outer{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.inner{
+  width: 450px;
+  height: auto;
+  padding: 10px;
+}
+.form-field{
+  width: 100%;
+}
