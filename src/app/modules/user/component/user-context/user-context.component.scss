@@ -1,0 +1,32 @@
+.outer{
+  width: 100vw;
+  height: 100vh;
+  .inner{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    .left{
+      flex:1;
+      height:100vh;
+
+
+    }
+    .right{
+      flex:6;
+      height:100vh;
+      display:flex;
+      flex-direction: column;
+      .right-up{
+        flex:1;
+        background-color: gray;
+      }
+      .right-down{
+        flex:15;
+
+      }
+
+    }
+  }
+}
+
