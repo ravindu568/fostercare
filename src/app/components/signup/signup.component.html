@@ -1,35 +1,50 @@
 <div class="outer">
-  <p>
-    User Registration
-  </p>
+
   <form>
-    <div class="inner">
-      <div class="row" style="margin: 0">
-        <div class="col-12">
-          <mat-form-field class="form-field" appearance="outline">
-            <mat-label>FullName</mat-label>
-            <input matInput type="text">
-          </mat-form-field>
+    <div class="inner col-12">
+
+      <div class="ele-left">
+        <div class="ele-left-up" style="flex:2;display:flex;flex-direction:column;">
+          <span class="hello">Hello,</span>
+          <span class="welcome">Welcome!</span>
         </div>
-        <div class="col-12">
-          <mat-form-field class="form-field" appearance="outline">
-            <mat-label>Email</mat-label>
-            <input matInput type="email">
-          </mat-form-field>
+        <div class="ele-left-down" style="flex:4;">
+          <img src="/assets/main-img.png" alt="login" >
         </div>
-        <div class="col-12">
-          <mat-form-field class="form-field" appearance="outline">
-            <mat-label>Password</mat-label>
-            <input matInput type="password">
-          </mat-form-field>
-        </div>
-        <div class="col-12">
-          <button type="submit" mat-raised-button color="primary" style="width: 100%">Register User</button>
-        </div>
-        <div class="col-12">
-          <a routerLink="/login">Already have an account</a>
+
+      </div>
+
+      <div class="ele-right">
+        <p style="text-align:center;height:50px;text:40px bold;"  ></p>
+        <div class="row" style="margin: 20px">
+          <div class="col-12">
+            <mat-form-field class="form-field" appearance="fill">
+              <mat-label >Email</mat-label>
+              <input matInput type="email" >
+            </mat-form-field>
+          </div>
+          <div class="col-12">
+            <mat-form-field class="form-field" appearance="fill">
+              <mat-label >User Name</mat-label>
+              <input matInput type="email" >
+            </mat-form-field>
+          </div>
+          <div class="col-12">
+            <mat-form-field class="form-field" appearance="fill" >
+              <mat-label>Password</mat-label>
+              <input matInput type="password">
+            </mat-form-field>
+          </div>
+          <div class="col-12">
+            <button type="submit" mat-raised-button  style="width:100%;background-color:#F2541B;color:#ffffff;height:55px;font-size:20px;font-weight:light;"  >Sign In</button>
+          </div>
+          <div class="col-12" style="height:70px;display:flex;justify-content:center;align-items:center;" >
+            <a routerLink="/login" style="text-decoration:none;color:#ffffff;">Do you have an account</a>
+          </div>
         </div>
       </div>
+
+
     </div>
   </form>
 </div>

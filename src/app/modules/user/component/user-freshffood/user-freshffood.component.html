@@ -1,0 +1,48 @@
+
+<div class="outer">
+  <div class="inner">
+    <div class="upper-ele">
+      <label>Fresh-Foods</label>
+      <button mat-flat-button color="primary">+ Add</button>
+    </div>
+    <div class="table-ele">
+      <table class="table table-hover">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>he</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>as</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colspan="2">Larry the Bird</td>
+          <td>asd</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="pagination">
+      <mat-paginator [length]="100"
+                     [pageSize]="10"
+                     [pageSizeOptions]="[5, 10, 25, 100]"
+                     aria-label="Select page">
+      </mat-paginator>
+
+    </div>
+  </div>
+</div>
