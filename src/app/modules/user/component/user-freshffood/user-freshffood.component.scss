@@ -6,26 +6,32 @@
   align-items: center;
   padding: 15px;
   margin: 10px;
-  @media (max-width: 576px) {
 
-    background-color: black;
-  }
-  @media (min-width: 760px) and (max-width: 800px) {
-
-    background-color: red;
-  }
   label{
     font-size: large;
     font-weight: bold;
   }
 }
-.table-ele{
-  margin: 10px;
+
+.down-ele{
+  .down-ele-upper{
+    margin-bottom:40px ;
+  }
+  .table-ele{
+     margin: 10px;
+
+     tr{
+       text-align: center;
+     }
+     td{
+
+     }
+   }
+  .pagination{
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+    }
 
 }
-.pagination{
 
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-}
